@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": false,
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "preserveConstEnums": true,
+        "noImplicitAny": true,
+        "strict": true
+    },
+    "include": [
+        "./**/*.ts",
+    ],
+    "exclude": ["**/node_modules/**/*"]
+}
